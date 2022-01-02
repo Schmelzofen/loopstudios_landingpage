@@ -215,7 +215,7 @@ footer {
 @media screen and (min-width: 1440px) {
     header {
         background: url("../img/desktop/image-hero.jpg") center no-repeat;
-        height: 73vh;
+        height: 85vh;
 
         .mobileNav {
             display: none;
@@ -278,26 +278,26 @@ footer {
         }
 
         .vrText {
-            width: 50%;
+            width: 46%;
             text-align: left;
             position: absolute;
             background: white;
-            bottom: -100px;
-            right: 0;
+            bottom: -110px;
+            right: 30px;
             padding: 6.5% 1%;
 
             h3 {
                 text-align: left;
                 font-family: Josefin Sans;
                 font-weight: lighter;
-                font-size: 5vh;
+                font-size: 6.2vh;
                 margin: 0 2% 5% 11%;
             }
 
             p {
                 font-family: Alata;
                 text-align: left;
-                margin: 0 15% 0 11%;
+                margin: -1% 15% 0 11%;
                 line-height: 3.8vh;
                 color: hsl(0, 0%, 41%);
 
@@ -310,11 +310,14 @@ footer {
         display: flex;
         justify-content: space-between;
 
+        h4 {
+            font-size: 6vh;
+        }
 
         #seeAllButton {
             display: block;
-            padding: 1% 5%;
-            height: 50px;
+            padding: 1% 4%;
+            height: 45px;
             background: none;
             border: 2px solid hsl(0, 0%, 41%);
             font-family: Alata;
@@ -412,7 +415,7 @@ footer {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 3% 12% 0;
+            padding: 3% 10% 1%;
 
             h5 {
                 padding: 0;
@@ -433,7 +436,7 @@ footer {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0 12% 3% 9%;
+            padding: 0 10% 3% 7%;
 
             nav {
                 ul {
