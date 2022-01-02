@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+## Colors
+
+### Primary
+
+- White: hsl(0, 0%, 100%)
+- Black: hsl(0, 0%, 0%)
+- Dark Gray: hsl(0, 0%, 55%)
+- Very Dark Gray: hsl(0, 0%, 41%)
+
+### Neutral
+*/
+
+header {
+    background: url("../img/mobile/image-hero.jpg") center/cover no-repeat;
+    height: 97vh;
+    color: hsl(0, 0%, 100%);
+    font-family: Josefin Sans;
+
+    .mobileNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10% 6%;
+
+        h1 {
+            font-weight: 600;
+            font-size: 3.5vh;
+        }
+
+        img {
+            height: 15px;
+        }
+    }
+
+    .heroSection {
+        border: 2px solid white;
+        margin: 34% 6% 0% 6%;
+        padding: 20% 0 3% 0;
+
+        h2 {
+            font-weight: lighter;
+            font-size: 6vh;
+            margin: -15% 8% 0 7%;
+        }
+    }
+}
+
+.vr {
+    img {
+        width: 88%;
+        margin: 26% 6% 10% 6%;
+    }
+
+    h3 {
+        text-align: center;
+        font-family: Josefin Sans;
+        font-weight: lighter;
+        font-size: 5vh;
+    }
+
+    p {
+        font-family: Alata;
+        text-align: center;
+        margin: 3% 7% 25%;
+        line-height: 3.5vh;
+        color: hsl(0, 0%, 41%);
+    }
+}
+
+.creations {
+    h4 {
+        text-align: center;
+        font-family: Josefin Sans;
+        font-size: 5vh;
+        font-weight: lighter;
+        padding: 1% 0 8% 0;
+    }
+
+    .gridSection {
+        div {
+            margin: 6% 6%;
+            padding: 14% 0 5%;
+
+            p {
+                color: white;
+                font-family: Josefin Sans;
+                margin: 0 0 0% 6%;
+                width: 50%;
+                font-weight: lighter;
+                font-size: 4.5vh;
+            }
+        }
+    }
+}
+
+.button {
+    text-align: center;
+    margin: 8% 0 25% 0;
+
+    button {
+        padding: 2.5% 10%;
+        background: none;
+        border: 2px solid hsl(0, 0%, 41%);
+        letter-spacing: 5px;
+        font-family: Alata;
+    }
+}
+
+footer {
+    background: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+
+    h5 {
+        padding: 14% 0 7%;
+        font-size: 4vh;
+        font-family: Josefin Sans;
+    }
+
+    nav {
+        ul {
+            li {
+                line-height: 6vh;
+                font-family: Alata;
+            }
+
+            padding: 0 0 10%;
+        }
+    }
+
+    .socialMedia {
+        img {
+            margin: 0 6px;
+        }
+    }
+
+    p {
+        padding: 4% 0 16%;
+        color: hsl(0, 0%, 41%);
+        font-family: Alata;
+        font-size: 2.2vh;
+    }
+}
+
+.deep {
+    background: url("../img/mobile/image-deep-earth.jpg") center/cover no-repeat;
+}
+
+.arcade {
+    background: url("../img/mobile/image-night-arcade.jpg") center/cover no-repeat;
+}
+
+.soccer {
+    background: url("../img/mobile/image-soccer-team.jpg") center/cover no-repeat;
+}
+
+.theGrid {
+    background: url("../img/mobile/image-grid.jpg") center/cover no-repeat;
+}
+
+.above {
+    background: url("../img/mobile/image-from-above.jpg") center/cover no-repeat;
+}
+
+.borealis {
+    background: url("../img/mobile/image-pocket-borealis.jpg") center/cover no-repeat;
+}
+
+.curiosity {
+    background: url("../img/mobile/image-curiosity.jpg") center/cover no-repeat;
+}
+
+.fisheye {
+    background: url("../img/mobile/image-fisheye.jpg") center/cover no-repeat;
+}
