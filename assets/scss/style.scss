@@ -214,7 +214,7 @@ footer {
 
 @media screen and (min-width: 1440px) {
     header {
-        background: url("../img/desktop/image-hero.jpg") center no-repeat;
+        background: url("../img/desktop/image-hero.jpg") center/cover no-repeat;
         height: 85vh;
 
         .mobileNav {
