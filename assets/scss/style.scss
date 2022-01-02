@@ -64,19 +64,32 @@ header {
         margin: 26% 6% 10% 6%;
     }
 
-    h3 {
-        text-align: center;
-        font-family: Josefin Sans;
-        font-weight: lighter;
-        font-size: 5vh;
+    .vrText {
+        position: static;
+        width: 100%;
+
+        h3 {
+            text-align: center;
+            font-family: Josefin Sans;
+            font-weight: lighter;
+            font-size: 5vh;
+        }
+
+        p {
+            font-family: Alata;
+            text-align: center;
+            margin: 3% 7% 25%;
+            line-height: 3.5vh;
+            color: hsl(0, 0%, 41%);
+        }
     }
 
-    p {
-        font-family: Alata;
-        text-align: center;
-        margin: 3% 7% 25%;
-        line-height: 3.5vh;
-        color: hsl(0, 0%, 41%);
+    #desktopVr {
+        display: none;
+    }
+
+    #mobileVr {
+        display: block;
     }
 }
 
@@ -89,7 +102,7 @@ header {
         padding: 1% 0 8% 0;
     }
 
-    .gridSection {
+    .gridSectionMobile {
         div {
             margin: 6% 6%;
             padding: 14% 0 5%;
@@ -191,7 +204,15 @@ footer {
     display: none;
 }
 
-@media screen and (max-width: 1440px) {
+.gridSectionDesktop {
+    display: none;
+}
+
+#desktopFooter {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
     header {
         background: url("../img/desktop/image-hero.jpg") center no-repeat;
         height: 73vh;
@@ -253,6 +274,7 @@ footer {
         #desktopVr {
             width: 50%;
             margin: 11.5% 0 0 12%;
+            display: block;
         }
 
         .vrText {
@@ -384,6 +406,8 @@ footer {
     }
 
     #desktopFooter {
+        display: block;
+
         .upperFooter {
             display: flex;
             justify-content: space-between;
